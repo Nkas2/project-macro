@@ -16,3 +16,6 @@ git push -u origin nama_branch (setelah ini pemilik repo akan memeriksa codingan
 git branch -d nama_branch (menghapus brach)
 git fetch untuk mencari apakah ada perubahan pada repo
 git pull untuk mengambil perubahan pada repo
+
+
+push baru
