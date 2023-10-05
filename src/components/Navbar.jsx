@@ -1,10 +1,8 @@
-import { useState } from "react";
 import { ButtonSignIn } from "./items/SignpInBtn";
 
 export const Navbar = () => {
-  const [navOper, setNavOpen] = useState(false);
   return (
-    <div className="max-w-[1200px] w-full bg-[#FFF5F0] flex justify-between px-4 items-center mx-auto pb-3 pt-8">
+    <div className="w-full px-10 bg-[#FFF5F0] flex justify-between items-center mx-auto pb-3 pt-8">
       {/* image logo */}
       <div className="w-[100px] md:w-[144px] max-h-[41px]">
         <img
@@ -16,16 +14,16 @@ export const Navbar = () => {
       {/* nav item */}
       <div>
         <ul className="flex gap-[33px]">
-          <li className="text-[#3C424C] text-lg font-normal cursor-pointer underline underline-offset-8 decoration-[4px] decoration-[#FFCC81]">
+          <li className="text-[#3C424C] text-lg font-normal cursor-pointer hover:underline underline-offset-8 decoration-[4px] decoration-[#FFCC81]">
             Home
           </li>
-          <li className="text-[#3C424C] text-lg font-normal cursor-pointer">
+          <li className="text-[#3C424C] text-lg font-normal cursor-pointer hover:underline underline-offset-8 decoration-[4px] decoration-[#FFCC81]">
             Adopsi
           </li>
-          <li className="text-[#3C424C] text-lg font-normal cursor-pointer">
+          <li className="text-[#3C424C] text-lg font-normal cursor-pointer hover:underline underline-offset-8 decoration-[4px] decoration-[#FFCC81]">
             Komunitas
           </li>
-          <li className="text-[#3C424C] text-lg font-normal cursor-pointer">
+          <li className="text-[#3C424C] text-lg font-normal cursor-pointer hover:underline underline-offset-8 decoration-[4px] decoration-[#FFCC81]">
             Tentang Kami
           </li>
         </ul>
