@@ -15,4 +15,4 @@ git commit -m 'selesai membuat halaman home dan halaman detail pet'
 git push -u origin nama_branch (setelah ini pemilik repo akan memeriksa codingan kalian)
 git branch -d nama_branch (menghapus brach)
 git fetch untuk mencari apakah ada perubahan pada repo
-git pull untuk mengambil perubahan pada repo
+git pull untuk mengambil perubahan pada repo asd
