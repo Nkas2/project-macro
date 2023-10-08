@@ -1,40 +1,36 @@
-import { createBrowserRouter } from 'react-router-dom';
-import { RootLayout } from '../layouts/RootLayout';
-import { Home } from '../page/Home';
-import { AuthLayouts } from '../layouts/AuthLayout';
-import { SignUp } from '../page/Signup';
-import { Login } from '../page/Login';
-import { Community } from '../page/CommunityPage';
+import { createBrowserRouter } from "react-router-dom";
+import { RootLayout } from "../layouts/RootLayout";
+import { Home } from "../page/Home";
+import { AuthLayouts } from "../layouts/AuthLayout";
+import { SignUp } from "../page/Signup";
+import { Login } from "../page/Login";
+import { Community } from "../page/CommunityPage";
 
 export const router = createBrowserRouter([
   {
-    path: '/',
+    path: "/",
     element: <RootLayout />,
     children: [
       {
-        path: '/',
+        path: "/",
         element: <Home />,
       },
       {
-        path: '/',
-        element: <Home />,
-      },
-      {
-        path: 'community',
+        path: "community",
         element: <Community />,
       },
     ],
   },
   {
-    path: '/',
+    path: "/",
     element: <AuthLayouts />,
     children: [
       {
-        path: '/signup',
+        path: "/signup",
         element: <SignUp />,
       },
       {
-        path: 'login',
+        path: "login",
         element: <Login />,
       },
     ],
