@@ -1,5 +1,8 @@
 // import { Navbar } from '../components/Navbar';
 
+import { Footer } from '../components/Footer';
+import { CommentContain } from '../components/items/Comment';
+
 export const Community = () => {
   return (
     <>
@@ -7,7 +10,7 @@ export const Community = () => {
         <h1 className="px-14 mb-3 font-bold">Discussion</h1>
 
         {/* new discus */}
-        <div className="bg-[#FFFDFC] rounded-[20px] border ml-[50px] w-[800px] h-[72px] flex justify-between items-center">
+        <div className="bg-[#FFFDFC] rounded-[20px] border ml-[50px] w-[827px] h-[72px] flex justify-between items-center">
           <img
             src="http://placehold.it/47x47"
             alt="profile-img"
@@ -22,6 +25,16 @@ export const Community = () => {
             +
           </button>
         </div>
+      </div>
+
+      <CommentContain />
+      <CommentContain />
+      <CommentContain />
+
+      {/* footer */}
+      <div className="w-full relative">
+        <img src="assets/image/wave3.png" alt="" className="w-full" />
+        <Footer />
       </div>
     </>
   );
