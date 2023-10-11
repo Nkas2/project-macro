@@ -2,8 +2,12 @@ import { useLogin } from "../zustand";
 import { ButtonSignIn } from "./items/SignpInBtn";
 import { NavLink } from "react-router-dom";
 import { BiSolidUser } from "react-icons/bi";
+import Chat from "./Chat";
+import { useState } from "react";
+import { createPortal } from "react-dom";
 
 export const Navbar = () => {
+  const [chatShow, setChatShow] = useState(false);
   const isLogin = useLogin((state) => state.isLogin);
   const updateLogin = useLogin((state) => state.updateLogin);
   updateLogin(true);
@@ -12,25 +16,17 @@ export const Navbar = () => {
     <>
       {isLogin ? (
         <>
-          <button
-            className={({ isActive }) =>
-              isActive
-                ? "underline underline-offset-8 decoration-[4px] decoration-[#FFCC81]"
-                : ""
-            }
-          >
+          {chatShow &&
+            createPortal(
+              <Chat onClose={() => setChatShow(false)} />,
+              document.body
+            )}
+          <button onClick={() => setChatShow(true)}>
             <li className="text-[#3C424C] text-lg font-normal cursor-pointer hover:underline underline-offset-8 decoration-[4px] decoration-[#FFCC81]">
               Chat
             </li>
           </button>
-          <button
-            to={"/adoption"}
-            className={({ isActive }) =>
-              isActive
-                ? "underline underline-offset-8 decoration-[4px] decoration-[#FFCC81]"
-                : ""
-            }
-          >
+          <button>
             <li className="text-[#3C424C] text-lg font-normal cursor-pointer hover:underline underline-offset-8 decoration-[4px] decoration-[#FFCC81]">
               Notifikasi
             </li>
