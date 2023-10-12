@@ -5,9 +5,11 @@ import { BiSolidUser } from "react-icons/bi";
 import Chat from "./Chat";
 import { useState } from "react";
 import { createPortal } from "react-dom";
+import { Notification } from "./items/Notifikation";
 
 export const Navbar = () => {
   const [chatShow, setChatShow] = useState(false);
+  const [notification, setNotification] = useState(false);
   const isLogin = useLogin((state) => state.isLogin);
   const updateLogin = useLogin((state) => state.updateLogin);
   updateLogin(true);
@@ -26,11 +28,15 @@ export const Navbar = () => {
               Chat
             </li>
           </button>
-          <button>
-            <li className="text-[#3C424C] text-lg font-normal cursor-pointer hover:underline underline-offset-8 decoration-[4px] decoration-[#FFCC81]">
-              Notifikasi
-            </li>
-          </button>
+          {/* {notification && createPortal(<Notification />, document.body)} */}
+          <div className="relative">
+            <button onClick={() => setNotification(!notification)}>
+              <li className="text-[#3C424C] text-lg font-normal cursor-pointer hover:underline underline-offset-8 decoration-[4px] decoration-[#FFCC81]">
+                Notifikasi
+              </li>
+            </button>
+            {notification ? <Notification /> : null}
+          </div>
         </>
       ) : null}
     </>
