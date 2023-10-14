@@ -2,9 +2,11 @@ import { createBrowserRouter } from "react-router-dom";
 import { RootLayout } from "../layouts/RootLayout";
 import { Home } from "../page/Home";
 import { AuthLayouts } from "../layouts/AuthLayout";
-import { SignUp } from "../page/Signup";
-import { Login } from "../page/Login";
+import { SignUp, action as ActionSignup } from "../page/Signup";
+import { action as ActionLogin, Login } from "../page/Login";
 import { Community } from "../page/CommunityPage";
+import { Adoption } from "../page/Adoption";
+import { PetDetail } from "../page/PetDetail";
 
 export const router = createBrowserRouter([
   {
@@ -19,6 +21,14 @@ export const router = createBrowserRouter([
         path: "community",
         element: <Community />,
       },
+      {
+        path: "adoption",
+        element: <Adoption />,
+      },
+      {
+        path: "adoption/:id",
+        element: <PetDetail />,
+      },
     ],
   },
   {
@@ -28,10 +38,12 @@ export const router = createBrowserRouter([
       {
         path: "/signup",
         element: <SignUp />,
+        action: ActionSignup,
       },
       {
         path: "login",
         element: <Login />,
+        action: ActionLogin,
       },
     ],
   },
