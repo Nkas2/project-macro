@@ -1,3 +1,4 @@
+import { Form, Link, redirect } from "react-router-dom";
 import { ButtonAuth } from "../components/items/ButtonAuth";
 
 export const SignUp = () => {
@@ -8,7 +9,7 @@ export const SignUp = () => {
         <h1 className="text-[#3C424C] text-2xl font-bold text-center mt-5">
           Sign up for Meowing
         </h1>
-        <form className="mt-9">
+        <Form method="post" className="mt-9">
           <div className="w-full mb-8">
             <input
               type="email"
@@ -50,12 +51,18 @@ export const SignUp = () => {
             <p className="text-sm">Agree to join Lorem Ipsum Meowing</p>
           </div>
           <ButtonAuth text={"Create Account"} />
-        </form>
+        </Form>
         <p className="mt-16 text-[#3C424C] text-sm text-center">
           Already have an account<span className="font-semibold">?</span>{" "}
-          <span className="font-bold">Sign In</span>
+          <span className="font-bold">
+            <Link to={"/login"}>Sign In</Link>
+          </span>
         </p>
       </div>
     </div>
   );
 };
+
+export function action() {
+  return redirect("/login");
+}

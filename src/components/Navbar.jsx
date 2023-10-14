@@ -11,8 +11,8 @@ export const Navbar = () => {
   const [chatShow, setChatShow] = useState(false);
   const [notification, setNotification] = useState(false);
   const isLogin = useLogin((state) => state.isLogin);
-  const updateLogin = useLogin((state) => state.updateLogin);
-  updateLogin(true);
+  // const updateLogin = useLogin((state) => state.updateLogin);
+  // updateLogin(true);
 
   const log = (
     <>
@@ -35,7 +35,9 @@ export const Navbar = () => {
                 Notifikasi
               </li>
             </button>
-            {notification ? <Notification /> : null}
+            {notification ? (
+              <Notification close={() => setNotification(false)} />
+            ) : null}
           </div>
         </>
       ) : null}

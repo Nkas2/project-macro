@@ -16,9 +16,7 @@ function Chat({ onClose }) {
         </div>
       </div>
       {/* chat list */}
-      <div className="overflow-y-scroll flex-1">
-        <ChatList />
-        <ChatList />
+      <div className="overflow-y-auto flex-1 scro">
         <ChatList />
         <ChatList />
         <ChatList />
