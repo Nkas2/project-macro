@@ -60,7 +60,7 @@ export const Navbar = () => {
       {/* image logo */}
       <div className="w-[100px] md:w-[144px] max-h-[41px]">
         <img
-          src="assets/image/logo.png"
+          src="/assets/image/logo.png"
           alt=""
           className="w-full object-cover"
         />
