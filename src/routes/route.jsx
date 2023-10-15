@@ -6,7 +6,7 @@ import { SignUp, action as ActionSignup } from "../page/Signup";
 import { action as ActionLogin, Login } from "../page/Login";
 import { Community } from "../page/CommunityPage";
 import { Adoption } from "../page/Adoption";
-import { PetDetail } from "../page/PetDetail";
+import { PetDetail, loader as loaderPet } from "../page/PetDetail";
 
 export const router = createBrowserRouter([
   {
@@ -28,6 +28,7 @@ export const router = createBrowserRouter([
       {
         path: "adoption/:id",
         element: <PetDetail />,
+        loader: loaderPet,
       },
     ],
   },
