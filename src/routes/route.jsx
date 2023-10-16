@@ -7,7 +7,6 @@ import { action as ActionLogin, Login } from "../page/Login";
 import { Community } from "../page/CommunityPage";
 import { Adoption } from "../page/Adoption";
 import { PetDetail, loader as loaderPet } from "../page/PetDetail";
-import { Profile } from "../page/Profile";
 
 export const router = createBrowserRouter([
   {
@@ -33,7 +32,6 @@ export const router = createBrowserRouter([
       },
       {
         path: "profile",
-        element: <Profile />,
       },
     ],
   },
