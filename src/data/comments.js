@@ -31,6 +31,14 @@ export const comments = [
     account: 'Tyler',
     uploadTime: '20 Menit lalu',
     like: '20 Like',
-    reply: [],
+    reply: [
+      {
+        account: 'Iqbal',
+        profileImage: 'assets/image/profileImage/profile 1.png',
+        uploadTime: 'Baru Saja',
+        comment:
+          'Halo, Guys aku mau tanya terkait perawatan kucing yang baik itu gimana ya. Aku baru aja adopsi kucing',
+      },
+    ],
   },
 ];

@@ -84,18 +84,6 @@ export const CommentContent = ({
                     </div>
                   </div>
                 </div>
-
-                {reply.length !== 0 && (
-                  <div>
-                    {reply.map((a, b) => {
-                      return (
-                        <div key={b}>
-                          <div>{a}</div>
-                        </div>
-                      );
-                    })}
-                  </div>
-                )}
               </div>
 
               {isReplying && (
@@ -123,6 +111,21 @@ export const CommentContent = ({
                       Tambah Komentar
                     </button>
                   </div>
+                </div>
+              )}
+
+              {reply.length !== 0 && (
+                <div>
+                  {reply.map((rep, i) => {
+                    return (
+                      <div key={i}>
+                        <p>{rep.account}</p>
+                        <p>{rep.profileImage}</p>
+                        <p>{rep.uploaTime}</p>
+                        <p>{rep.comment}</p>
+                      </div>
+                    );
+                  })}
                 </div>
               )}
             </div>
