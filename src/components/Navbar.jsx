@@ -6,35 +6,33 @@ import Chat from "./Chat";
 import { useState } from "react";
 import { createPortal } from "react-dom";
 import { Notification } from "./items/Notifikation";
+import { ProfilePopUp } from "./items/ProfilePopUp";
 
 export const Navbar = () => {
   const [chatShow, setChatShow] = useState(false);
   const [notification, setNotification] = useState(false);
   const isLogin = useLogin((state) => state.isLogin);
-  // const updateLogin = useLogin((state) => state.updateLogin);
-  // updateLogin(true);
 
   const log = (
     <>
       {isLogin ? (
         <>
-          {chatShow &&
-            createPortal(
-              <Chat onClose={() => setChatShow(false)} />,
-              document.body
-            )}
           <button onClick={() => setChatShow(true)}>
             <li className="text-[#3C424C] text-lg font-normal cursor-pointer hover:underline underline-offset-8 decoration-[4px] decoration-[#FFCC81]">
               Chat
             </li>
           </button>
-          {/* {notification && createPortal(<Notification />, document.body)} */}
           <div className="relative">
             <button onClick={() => setNotification(!notification)}>
               <li className="text-[#3C424C] text-lg font-normal cursor-pointer hover:underline underline-offset-8 decoration-[4px] decoration-[#FFCC81]">
                 Notifikasi
               </li>
             </button>
+            {chatShow &&
+              createPortal(
+                <Chat onClose={() => setChatShow(false)} />,
+                document.body
+              )}
             {notification ? (
               <Notification close={() => setNotification(false)} />
             ) : null}
@@ -47,8 +45,13 @@ export const Navbar = () => {
   const user = (
     <>
       {isLogin ? (
-        <div className="p-3 flex justify-center items-center bg-[#FFCC81] rounded-full">
-          <BiSolidUser color="#3C424C" size={20} />
+        <div className="relative">
+          <div className="p-3 flex peer justify-center pb items-center bg-[#FFCC81] rounded-full">
+            <BiSolidUser color="#3C424C" size={20} />
+          </div>
+          <div className="hidden absolute right-2 peer-hover:block hover:block">
+            <ProfilePopUp />
+          </div>
         </div>
       ) : (
         <ButtonSignIn />
