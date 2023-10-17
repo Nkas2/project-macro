@@ -10,3 +10,12 @@ body {
 *::-webkit-scrollbar {
   display: none;
 }
+
+.mySwiper .swiper-slide .asd {
+  border: 2px solid transparent;
+}
+
+.mySwiper .swiper-slide-thumb-active .asd {
+  opacity: 1;
+  border: 2px solid #ffcc81;
+}

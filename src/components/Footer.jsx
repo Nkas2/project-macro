@@ -3,7 +3,7 @@ import { BsFacebook, BsInstagram, BsTwitter } from "react-icons/bs";
 
 export const Footer = () => {
   return (
-    <div className="w-full h-80 flex justify-center items-center ">
+    <div id="foot" className="w-full h-80 flex justify-center items-center ">
       <div className="w-[600px] flex items-center flex-col  ">
         <p className="flex items-center gap-1 text-[#3C424C] text-lg ">
           <AiOutlineCopyright /> 2023 Meowing

@@ -10,7 +10,7 @@ export const pets = [
     weight: 4,
     color: "orange",
     description:
-      "Kucing Scottish Fold adalah ras kucing yang terkenal dengan ciri khas uniknya yaitu telinga yang dilipat ke depan, memberikan tampilan yang menggemaskan. Mereka memiliki tubuh kecil hingga sedang yang padat dan berotot, dengan bulu yang lembut dan tebal. Wajah mereka biasanya berbentuk bulat dengan mata yang besar dan ekspresif. Ras ini dikenal sebagai kucing yang ramah, penyayang, dan tenang, membuat mereka menjadi teman yang sempurna untuk keluarga. Scottish Folds cenderung memiliki kepribadian yang lembut dan penuh kasih sayang serta mudah beradaptasi dengan berbagai lingkungan. Kucing ini sering menjadi favorit dalam berbagai keluarga di seluruh dunia karena penampilan fisiknya yang unik dan kepribadiannya yang menggemaskan.",
+      "Kucing Scottish Fold adalah ras kucing yang terkenal dengan ciri khas uniknya yaitu telinga yang dilipat ke depan, memberikan tampilan yang menggemaskan. Mereka memiliki tubuh kecil hingga sedang yang padat dan berotot, dengan bulu yang lembut dan tebal. Wajah mereka biasanya berbentuk bulat dengan mata yang besar dan ekspresif. Ras ini dikenal sebagai kucing yang ramah, penyayang, dan tenang, membuat mereka menjadi teman yang sempurna untuk keluarga. ",
   },
   {
     id: 2,
@@ -23,7 +23,7 @@ export const pets = [
     weight: 4,
     color: "orange",
     description:
-      "Kucing Scottish Fold adalah ras kucing yang terkenal dengan ciri khas uniknya yaitu telinga yang dilipat ke depan, memberikan tampilan yang menggemaskan. Mereka memiliki tubuh kecil hingga sedang yang padat dan berotot, dengan bulu yang lembut dan tebal. Wajah mereka biasanya berbentuk bulat dengan mata yang besar dan ekspresif. Ras ini dikenal sebagai kucing yang ramah, penyayang, dan tenang, membuat mereka menjadi teman yang sempurna untuk keluarga. Scottish Folds cenderung memiliki kepribadian yang lembut dan penuh kasih sayang serta mudah beradaptasi dengan berbagai lingkungan. Kucing ini sering menjadi favorit dalam berbagai keluarga di seluruh dunia karena penampilan fisiknya yang unik dan kepribadiannya yang menggemaskan.",
+      "Kucing Scottish Fold adalah ras kucing yang terkenal dengan ciri khas uniknya yaitu telinga yang dilipat ke depan, memberikan tampilan yang menggemaskan. Mereka memiliki tubuh kecil hingga sedang yang padat dan berotot, dengan bulu yang lembut dan tebal. Wajah mereka biasanya berbentuk bulat dengan mata yang besar dan ekspresif. Ras ini dikenal sebagai kucing yang ramah, penyayang, dan tenang, membuat mereka menjadi teman yang sempurna untuk keluarga. ",
   },
   {
     id: 3,
@@ -36,7 +36,7 @@ export const pets = [
     weight: 4,
     color: "abu-abu",
     description:
-      "Kucing Scottish Fold adalah ras kucing yang terkenal dengan ciri khas uniknya yaitu telinga yang dilipat ke depan, memberikan tampilan yang menggemaskan. Mereka memiliki tubuh kecil hingga sedang yang padat dan berotot, dengan bulu yang lembut dan tebal. Wajah mereka biasanya berbentuk bulat dengan mata yang besar dan ekspresif. Ras ini dikenal sebagai kucing yang ramah, penyayang, dan tenang, membuat mereka menjadi teman yang sempurna untuk keluarga. Scottish Folds cenderung memiliki kepribadian yang lembut dan penuh kasih sayang serta mudah beradaptasi dengan berbagai lingkungan. Kucing ini sering menjadi favorit dalam berbagai keluarga di seluruh dunia karena penampilan fisiknya yang unik dan kepribadiannya yang menggemaskan.",
+      "Kucing Scottish Fold adalah ras kucing yang terkenal dengan ciri khas uniknya yaitu telinga yang dilipat ke depan, memberikan tampilan yang menggemaskan. Mereka memiliki tubuh kecil hingga sedang yang padat dan berotot, dengan bulu yang lembut dan tebal. Wajah mereka biasanya berbentuk bulat dengan mata yang besar dan ekspresif. Ras ini dikenal sebagai kucing yang ramah, penyayang, dan tenang, membuat mereka menjadi teman yang sempurna untuk keluarga. ",
   },
   {
     id: 4,
@@ -49,7 +49,7 @@ export const pets = [
     weight: 4,
     color: "abu-abu",
     description:
-      "Kucing Scottish Fold adalah ras kucing yang terkenal dengan ciri khas uniknya yaitu telinga yang dilipat ke depan, memberikan tampilan yang menggemaskan. Mereka memiliki tubuh kecil hingga sedang yang padat dan berotot, dengan bulu yang lembut dan tebal. Wajah mereka biasanya berbentuk bulat dengan mata yang besar dan ekspresif. Ras ini dikenal sebagai kucing yang ramah, penyayang, dan tenang, membuat mereka menjadi teman yang sempurna untuk keluarga. Scottish Folds cenderung memiliki kepribadian yang lembut dan penuh kasih sayang serta mudah beradaptasi dengan berbagai lingkungan. Kucing ini sering menjadi favorit dalam berbagai keluarga di seluruh dunia karena penampilan fisiknya yang unik dan kepribadiannya yang menggemaskan.",
+      "Kucing Scottish Fold adalah ras kucing yang terkenal dengan ciri khas uniknya yaitu telinga yang dilipat ke depan, memberikan tampilan yang menggemaskan. Mereka memiliki tubuh kecil hingga sedang yang padat dan berotot, dengan bulu yang lembut dan tebal. Wajah mereka biasanya berbentuk bulat dengan mata yang besar dan ekspresif. Ras ini dikenal sebagai kucing yang ramah, penyayang, dan tenang, membuat mereka menjadi teman yang sempurna untuk keluarga. ",
   },
   {
     id: 5,
@@ -62,7 +62,7 @@ export const pets = [
     weight: 4,
     color: "abu-abu",
     description:
-      "Kucing Scottish Fold adalah ras kucing yang terkenal dengan ciri khas uniknya yaitu telinga yang dilipat ke depan, memberikan tampilan yang menggemaskan. Mereka memiliki tubuh kecil hingga sedang yang padat dan berotot, dengan bulu yang lembut dan tebal. Wajah mereka biasanya berbentuk bulat dengan mata yang besar dan ekspresif. Ras ini dikenal sebagai kucing yang ramah, penyayang, dan tenang, membuat mereka menjadi teman yang sempurna untuk keluarga. Scottish Folds cenderung memiliki kepribadian yang lembut dan penuh kasih sayang serta mudah beradaptasi dengan berbagai lingkungan. Kucing ini sering menjadi favorit dalam berbagai keluarga di seluruh dunia karena penampilan fisiknya yang unik dan kepribadiannya yang menggemaskan.",
+      "Kucing Scottish Fold adalah ras kucing yang terkenal dengan ciri khas uniknya yaitu telinga yang dilipat ke depan, memberikan tampilan yang menggemaskan. Mereka memiliki tubuh kecil hingga sedang yang padat dan berotot, dengan bulu yang lembut dan tebal. Wajah mereka biasanya berbentuk bulat dengan mata yang besar dan ekspresif. Ras ini dikenal sebagai kucing yang ramah, penyayang, dan tenang, membuat mereka menjadi teman yang sempurna untuk keluarga. ",
   },
   {
     id: 6,
@@ -75,7 +75,7 @@ export const pets = [
     weight: 4,
     color: "abu-abu",
     description:
-      "Kucing Scottish Fold adalah ras kucing yang terkenal dengan ciri khas uniknya yaitu telinga yang dilipat ke depan, memberikan tampilan yang menggemaskan. Mereka memiliki tubuh kecil hingga sedang yang padat dan berotot, dengan bulu yang lembut dan tebal. Wajah mereka biasanya berbentuk bulat dengan mata yang besar dan ekspresif. Ras ini dikenal sebagai kucing yang ramah, penyayang, dan tenang, membuat mereka menjadi teman yang sempurna untuk keluarga. Scottish Folds cenderung memiliki kepribadian yang lembut dan penuh kasih sayang serta mudah beradaptasi dengan berbagai lingkungan. Kucing ini sering menjadi favorit dalam berbagai keluarga di seluruh dunia karena penampilan fisiknya yang unik dan kepribadiannya yang menggemaskan.",
+      "Kucing Scottish Fold adalah ras kucing yang terkenal dengan ciri khas uniknya yaitu telinga yang dilipat ke depan, memberikan tampilan yang menggemaskan. Mereka memiliki tubuh kecil hingga sedang yang padat dan berotot, dengan bulu yang lembut dan tebal. Wajah mereka biasanya berbentuk bulat dengan mata yang besar dan ekspresif. Ras ini dikenal sebagai kucing yang ramah, penyayang, dan tenang, membuat mereka menjadi teman yang sempurna untuk keluarga. ",
   },
   {
     id: 7,
@@ -88,7 +88,7 @@ export const pets = [
     weight: 4,
     color: "abu-abu",
     description:
-      "Kucing Scottish Fold adalah ras kucing yang terkenal dengan ciri khas uniknya yaitu telinga yang dilipat ke depan, memberikan tampilan yang menggemaskan. Mereka memiliki tubuh kecil hingga sedang yang padat dan berotot, dengan bulu yang lembut dan tebal. Wajah mereka biasanya berbentuk bulat dengan mata yang besar dan ekspresif. Ras ini dikenal sebagai kucing yang ramah, penyayang, dan tenang, membuat mereka menjadi teman yang sempurna untuk keluarga. Scottish Folds cenderung memiliki kepribadian yang lembut dan penuh kasih sayang serta mudah beradaptasi dengan berbagai lingkungan. Kucing ini sering menjadi favorit dalam berbagai keluarga di seluruh dunia karena penampilan fisiknya yang unik dan kepribadiannya yang menggemaskan.",
+      "Kucing Scottish Fold adalah ras kucing yang terkenal dengan ciri khas uniknya yaitu telinga yang dilipat ke depan, memberikan tampilan yang menggemaskan. Mereka memiliki tubuh kecil hingga sedang yang padat dan berotot, dengan bulu yang lembut dan tebal. Wajah mereka biasanya berbentuk bulat dengan mata yang besar dan ekspresif. Ras ini dikenal sebagai kucing yang ramah, penyayang, dan tenang, membuat mereka menjadi teman yang sempurna untuk keluarga. ",
   },
   {
     id: 8,
@@ -101,7 +101,7 @@ export const pets = [
     weight: 4,
     color: "abu-abu",
     description:
-      "Kucing Scottish Fold adalah ras kucing yang terkenal dengan ciri khas uniknya yaitu telinga yang dilipat ke depan, memberikan tampilan yang menggemaskan. Mereka memiliki tubuh kecil hingga sedang yang padat dan berotot, dengan bulu yang lembut dan tebal. Wajah mereka biasanya berbentuk bulat dengan mata yang besar dan ekspresif. Ras ini dikenal sebagai kucing yang ramah, penyayang, dan tenang, membuat mereka menjadi teman yang sempurna untuk keluarga. Scottish Folds cenderung memiliki kepribadian yang lembut dan penuh kasih sayang serta mudah beradaptasi dengan berbagai lingkungan. Kucing ini sering menjadi favorit dalam berbagai keluarga di seluruh dunia karena penampilan fisiknya yang unik dan kepribadiannya yang menggemaskan.",
+      "Kucing Scottish Fold adalah ras kucing yang terkenal dengan ciri khas uniknya yaitu telinga yang dilipat ke depan, memberikan tampilan yang menggemaskan. Mereka memiliki tubuh kecil hingga sedang yang padat dan berotot, dengan bulu yang lembut dan tebal. Wajah mereka biasanya berbentuk bulat dengan mata yang besar dan ekspresif. Ras ini dikenal sebagai kucing yang ramah, penyayang, dan tenang, membuat mereka menjadi teman yang sempurna untuk keluarga. ",
   },
   {
     id: 9,
@@ -114,7 +114,7 @@ export const pets = [
     weight: 4,
     color: "abu-abu",
     description:
-      "Kucing Scottish Fold adalah ras kucing yang terkenal dengan ciri khas uniknya yaitu telinga yang dilipat ke depan, memberikan tampilan yang menggemaskan. Mereka memiliki tubuh kecil hingga sedang yang padat dan berotot, dengan bulu yang lembut dan tebal. Wajah mereka biasanya berbentuk bulat dengan mata yang besar dan ekspresif. Ras ini dikenal sebagai kucing yang ramah, penyayang, dan tenang, membuat mereka menjadi teman yang sempurna untuk keluarga. Scottish Folds cenderung memiliki kepribadian yang lembut dan penuh kasih sayang serta mudah beradaptasi dengan berbagai lingkungan. Kucing ini sering menjadi favorit dalam berbagai keluarga di seluruh dunia karena penampilan fisiknya yang unik dan kepribadiannya yang menggemaskan.",
+      "Kucing Scottish Fold adalah ras kucing yang terkenal dengan ciri khas uniknya yaitu telinga yang dilipat ke depan, memberikan tampilan yang menggemaskan. Mereka memiliki tubuh kecil hingga sedang yang padat dan berotot, dengan bulu yang lembut dan tebal. Wajah mereka biasanya berbentuk bulat dengan mata yang besar dan ekspresif. Ras ini dikenal sebagai kucing yang ramah, penyayang, dan tenang, membuat mereka menjadi teman yang sempurna untuk keluarga. ",
   },
   {
     id: 10,
@@ -127,7 +127,7 @@ export const pets = [
     weight: 4,
     color: "abu-abu",
     description:
-      "Kucing Scottish Fold adalah ras kucing yang terkenal dengan ciri khas uniknya yaitu telinga yang dilipat ke depan, memberikan tampilan yang menggemaskan. Mereka memiliki tubuh kecil hingga sedang yang padat dan berotot, dengan bulu yang lembut dan tebal. Wajah mereka biasanya berbentuk bulat dengan mata yang besar dan ekspresif. Ras ini dikenal sebagai kucing yang ramah, penyayang, dan tenang, membuat mereka menjadi teman yang sempurna untuk keluarga. Scottish Folds cenderung memiliki kepribadian yang lembut dan penuh kasih sayang serta mudah beradaptasi dengan berbagai lingkungan. Kucing ini sering menjadi favorit dalam berbagai keluarga di seluruh dunia karena penampilan fisiknya yang unik dan kepribadiannya yang menggemaskan.",
+      "Kucing Scottish Fold adalah ras kucing yang terkenal dengan ciri khas uniknya yaitu telinga yang dilipat ke depan, memberikan tampilan yang menggemaskan. Mereka memiliki tubuh kecil hingga sedang yang padat dan berotot, dengan bulu yang lembut dan tebal. Wajah mereka biasanya berbentuk bulat dengan mata yang besar dan ekspresif. Ras ini dikenal sebagai kucing yang ramah, penyayang, dan tenang, membuat mereka menjadi teman yang sempurna untuk keluarga. ",
   },
   {
     id: 11,
@@ -140,7 +140,7 @@ export const pets = [
     weight: 4,
     color: "abu-abu",
     description:
-      "Kucing Scottish Fold adalah ras kucing yang terkenal dengan ciri khas uniknya yaitu telinga yang dilipat ke depan, memberikan tampilan yang menggemaskan. Mereka memiliki tubuh kecil hingga sedang yang padat dan berotot, dengan bulu yang lembut dan tebal. Wajah mereka biasanya berbentuk bulat dengan mata yang besar dan ekspresif. Ras ini dikenal sebagai kucing yang ramah, penyayang, dan tenang, membuat mereka menjadi teman yang sempurna untuk keluarga. Scottish Folds cenderung memiliki kepribadian yang lembut dan penuh kasih sayang serta mudah beradaptasi dengan berbagai lingkungan. Kucing ini sering menjadi favorit dalam berbagai keluarga di seluruh dunia karena penampilan fisiknya yang unik dan kepribadiannya yang menggemaskan.",
+      "Kucing Scottish Fold adalah ras kucing yang terkenal dengan ciri khas uniknya yaitu telinga yang dilipat ke depan, memberikan tampilan yang menggemaskan. Mereka memiliki tubuh kecil hingga sedang yang padat dan berotot, dengan bulu yang lembut dan tebal. Wajah mereka biasanya berbentuk bulat dengan mata yang besar dan ekspresif. Ras ini dikenal sebagai kucing yang ramah, penyayang, dan tenang, membuat mereka menjadi teman yang sempurna untuk keluarga. ",
   },
   {
     id: 12,
@@ -153,7 +153,7 @@ export const pets = [
     weight: 4,
     color: "orange",
     description:
-      "Kucing Scottish Fold adalah ras kucing yang terkenal dengan ciri khas uniknya yaitu telinga yang dilipat ke depan, memberikan tampilan yang menggemaskan. Mereka memiliki tubuh kecil hingga sedang yang padat dan berotot, dengan bulu yang lembut dan tebal. Wajah mereka biasanya berbentuk bulat dengan mata yang besar dan ekspresif. Ras ini dikenal sebagai kucing yang ramah, penyayang, dan tenang, membuat mereka menjadi teman yang sempurna untuk keluarga. Scottish Folds cenderung memiliki kepribadian yang lembut dan penuh kasih sayang serta mudah beradaptasi dengan berbagai lingkungan. Kucing ini sering menjadi favorit dalam berbagai keluarga di seluruh dunia karena penampilan fisiknya yang unik dan kepribadiannya yang menggemaskan.",
+      "Kucing Scottish Fold adalah ras kucing yang terkenal dengan ciri khas uniknya yaitu telinga yang dilipat ke depan, memberikan tampilan yang menggemaskan. Mereka memiliki tubuh kecil hingga sedang yang padat dan berotot, dengan bulu yang lembut dan tebal. Wajah mereka biasanya berbentuk bulat dengan mata yang besar dan ekspresif. Ras ini dikenal sebagai kucing yang ramah, penyayang, dan tenang, membuat mereka menjadi teman yang sempurna untuk keluarga. ",
   },
   {
     id: 13,
@@ -166,6 +166,6 @@ export const pets = [
     weight: 4,
     color: "abu-abu",
     description:
-      "Kucing Scottish Fold adalah ras kucing yang terkenal dengan ciri khas uniknya yaitu telinga yang dilipat ke depan, memberikan tampilan yang menggemaskan. Mereka memiliki tubuh kecil hingga sedang yang padat dan berotot, dengan bulu yang lembut dan tebal. Wajah mereka biasanya berbentuk bulat dengan mata yang besar dan ekspresif. Ras ini dikenal sebagai kucing yang ramah, penyayang, dan tenang, membuat mereka menjadi teman yang sempurna untuk keluarga. Scottish Folds cenderung memiliki kepribadian yang lembut dan penuh kasih sayang serta mudah beradaptasi dengan berbagai lingkungan. Kucing ini sering menjadi favorit dalam berbagai keluarga di seluruh dunia karena penampilan fisiknya yang unik dan kepribadiannya yang menggemaskan.",
+      "Kucing Scottish Fold adalah ras kucing yang terkenal dengan ciri khas uniknya yaitu telinga yang dilipat ke depan, memberikan tampilan yang menggemaskan. Mereka memiliki tubuh kecil hingga sedang yang padat dan berotot, dengan bulu yang lembut dan tebal. Wajah mereka biasanya berbentuk bulat dengan mata yang besar dan ekspresif. Ras ini dikenal sebagai kucing yang ramah, penyayang, dan tenang, membuat mereka menjadi teman yang sempurna untuk keluarga. ",
   },
 ];

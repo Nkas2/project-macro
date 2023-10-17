@@ -1,8 +1,37 @@
 import { RxCross1 } from "react-icons/rx";
-import ChatList from "./items/ChatList";
+import { ChatList } from "./items/ChatList";
+import { useEffect, useState } from "react";
 
 // eslint-disable-next-line react/prop-types
-function Chat({ onClose }) {
+export function Chat({ onClose, user, chatRoom }) {
+  const [chata, setChat] = useState([
+    {
+      name: "oreo",
+      image: "/assets/image/ppl.jpeg",
+      chats: ["Hallo"],
+    },
+  ]);
+
+  useEffect(() => {
+    if (user) {
+      setChat([
+        ...chata,
+        {
+          name: user,
+          image: "https://source.unsplash.com/1600x900/?people",
+          chats: [],
+        },
+      ]);
+    }
+  }, []);
+
+  const setData = (data) => {
+    const { text, index } = data;
+    const newChata = [...chata];
+    const chatIndex = index;
+    newChata[chatIndex].chats.push(text);
+    setChat(newChata);
+  };
   return (
     <div
       id="chat"
@@ -16,14 +45,18 @@ function Chat({ onClose }) {
         </div>
       </div>
       {/* chat list */}
-      <div className="overflow-y-auto flex-1 scro">
-        <ChatList />
-        <ChatList />
-        <ChatList />
-        <ChatList />
-        <ChatList />
-        <ChatList />
-        <ChatList />
+      <div className="overflow-y-auto flex-1">
+        {chata.map((c, i) => (
+          <ChatList
+            key={i}
+            id={i}
+            name={c.name}
+            image={c.image}
+            pesan={c.chats}
+            sendDataa={setData}
+            open={chatRoom}
+          />
+        ))}
       </div>
     </div>
   );
