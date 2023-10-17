@@ -2,7 +2,7 @@ import { Outlet } from "react-router-dom";
 
 export const AuthLayouts = () => {
   return (
-    <div className="flex h-screen max-w-[1440px]">
+    <div className="flex h-screen">
       {/* image */}
       <div className="w-[800px] max-h-screen bg-white">
         <img

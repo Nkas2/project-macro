@@ -30,7 +30,7 @@ export const Navbar = () => {
             </button>
             {chatShow &&
               createPortal(
-                <Chat onClose={() => setChatShow(false)} />,
+                <Chat onClose={() => setChatShow(false)} user={null} />,
                 document.body
               )}
             {notification ? (
@@ -108,8 +108,8 @@ export const Navbar = () => {
             </li>
           </NavLink>
           {log}
-          <NavLink
-            to={"/about"}
+          <a
+            href="#foot"
             className={({ isActive }) =>
               isActive
                 ? "underline underline-offset-8 decoration-[4px] decoration-[#FFCC81]"
@@ -119,7 +119,7 @@ export const Navbar = () => {
             <li className="text-[#3C424C] text-lg font-normal cursor-pointer hover:underline underline-offset-8 decoration-[4px] decoration-[#FFCC81]">
               Tentang Kami
             </li>
-          </NavLink>
+          </a>
         </ul>
       </div>
       {user}

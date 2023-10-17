@@ -3,7 +3,6 @@ import { ButtonAuth } from "../components/items/ButtonAuth";
 import { useLogin } from "../zustand";
 
 export function action() {
-  console.log("dawd");
   return redirect("/");
 }
 

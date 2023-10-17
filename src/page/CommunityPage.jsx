@@ -1,7 +1,7 @@
 // import { Navbar } from '../components/Navbar';
 
-import { Footer } from '../components/Footer';
-import { CommentContent } from '../components/items/Comment';
+import { Footer } from "../components/Footer";
+import { CommentContent } from "../components/items/Comment";
 
 export const Community = () => {
   return (
