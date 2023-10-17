@@ -8,9 +8,17 @@ import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/navigation";
 import "swiper/css/thumbs";
+import { Chat } from "../components/Chat";
+import { createPortal } from "react-dom";
 
 export const PetDetail = () => {
   const data = useLoaderData();
+  const [chatShow, setChatShow] = useState(false);
+  const [user, setUser] = useState("");
+  const openChat = (e) => {
+    setUser(e.target.value);
+    setChatShow(true);
+  };
   const { images, name, age, gender, type, weight, color, description } = data;
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
   return (
@@ -113,12 +121,26 @@ export const PetDetail = () => {
             </p>
           </div>
           <div className="flex justify-center">
-            <button className="rounded-[20px] text-[#3C424C] text-2xl font-bold bg-[#FFCC81] hover:bg-[#FDC470] py-2 px-28">
+            <button
+              onClick={openChat}
+              value={name}
+              className="rounded-[20px] text-[#3C424C] text-2xl font-bold bg-[#FFCC81] hover:bg-[#FDC470] py-2 px-28"
+            >
               Chat
             </button>
           </div>
         </div>
       </div>
+
+      {chatShow &&
+        createPortal(
+          <Chat
+            onClose={() => setChatShow(false)}
+            user={user}
+            chatRoom={chatShow ? true : false}
+          />,
+          document.body
+        )}
     </div>
   );
 };

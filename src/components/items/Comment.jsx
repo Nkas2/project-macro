@@ -1,5 +1,5 @@
-import { AiFillLike } from 'react-icons/ai';
-import PropTypes from 'prop-types';
+import { AiFillLike } from "react-icons/ai";
+import PropTypes from "prop-types";
 
 export const CommentContent = ({
   comment,
