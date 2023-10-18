@@ -1,4 +1,4 @@
-import { useLoaderData } from "react-router-dom";
+import { useLoaderData, useNavigate } from "react-router-dom";
 import { pets } from "../../data/pet";
 
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -10,17 +10,24 @@ import "swiper/css/navigation";
 import "swiper/css/thumbs";
 import { Chat } from "../components/Chat";
 import { createPortal } from "react-dom";
+import { useLogin } from "../zustand";
 
 export const PetDetail = () => {
   const data = useLoaderData();
   const [chatShow, setChatShow] = useState(false);
   const [user, setUser] = useState("");
+  const navigate = useNavigate();
   const openChat = (e) => {
+    if (!isLogin) {
+      navigate("/login");
+      return;
+    }
     setUser(e.target.value);
     setChatShow(true);
   };
   const { images, name, age, gender, type, weight, color, description } = data;
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
+  const isLogin = useLogin((state) => state.isLogin);
   return (
     <div className="w-full h-screen ">
       <div className="max-w-[2000px] h-full mx-auto flex">

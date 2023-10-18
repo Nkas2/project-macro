@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { Footer } from "../components/Footer";
 
 export const Home = () => {
@@ -19,9 +20,11 @@ export const Home = () => {
               <br />
               diadopsi dengan mudah dan cepat
             </p>
-            <button className="mt-8 w-[150px] bg-transparent border-[2px] border-[#FFCC81] rounded-[30px] text-xl px-7 py-1 font-bold text-[#3C424C] hover:bg-[#FFCC81]">
-              ADOPT
-            </button>
+            <Link to={"/adoption"}>
+              <button className="mt-8 w-[150px] bg-transparent border-[2px] border-[#FFCC81] rounded-[30px] text-xl px-7 py-1 font-bold text-[#3C424C] hover:bg-[#FFCC81]">
+                ADOPT
+              </button>
+            </Link>
           </section>
           {/* image */}
           <div className="w-[600px]">
@@ -90,9 +93,11 @@ export const Home = () => {
                   cerita-cerita menarik seputar kucing <br /> dari para pencinta
                   kucing lainnya.
                 </p>
-                <button className="mt-8 w-[150px] bg-transparent border-[2px] border-[#FFCC81] rounded-[30px] text-xl px-7 py-1 font-bold text-[#3C424C] hover:bg-[#FFCC81]">
-                  Explore
-                </button>
+                <Link to={"/community"}>
+                  <button className="mt-8 w-[150px] bg-transparent border-[2px] border-[#FFCC81] rounded-[30px] text-xl px-7 py-1 font-bold text-[#3C424C] hover:bg-[#FFCC81]">
+                    Explore
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -111,9 +116,11 @@ export const Home = () => {
                 fitur untuk <br /> mengodopsi hewan atau membuat <br /> profile
                 hewan untuk diadopsi dan <br /> manfaat menarik lainnya.
               </p>
-              <button className="bg-[#3C424C] rounded-[30px] text-xl px-10 py-2 font-bold text-[#FFF5F0] hover:bg-[#2F343C]">
-                Daftar
-              </button>
+              <Link to={"/login"}>
+                <button className="bg-[#3C424C] rounded-[30px] text-xl px-10 py-2 font-bold text-[#FFF5F0] hover:bg-[#2F343C]">
+                  Daftar
+                </button>
+              </Link>
             </div>
           </div>
         </div>
