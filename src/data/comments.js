@@ -6,15 +6,7 @@ export const comments = [
     account: 'Iqbal',
     uploadTime: 'Baru Saja',
     like: '4 Like',
-    reply: [
-      {
-        account: 'Iqbal',
-        profileImage: 'assets/image/profileImage/profile 1.png',
-        uploadTime: 'Baru Saja',
-        comment:
-          'Halo, Guys aku mau tanya terkait perawatan kucing yang baik itu gimana ya. Aku baru aja adopsi kucing',
-      },
-    ],
+    reply: [],
   },
   {
     profileImage: 'assets/image/profileImage/profile 2.png',
@@ -36,8 +28,13 @@ export const comments = [
         account: 'Iqbal',
         profileImage: 'assets/image/profileImage/profile 1.png',
         uploadTime: 'Baru Saja',
-        comment:
-          'Halo, Guys aku mau tanya terkait perawatan kucing yang baik itu gimana ya. Aku baru aja adopsi kucing',
+        comment: 'Lokasi terakhir liat dimana ya ?',
+      },
+      {
+        account: 'Arya',
+        profileImage: 'assets/image/profileImage/profile 2.png',
+        uploadTime: 'Baru Saja',
+        comment: 'Kenapa bisa hilang ?',
       },
     ],
   },

@@ -13,6 +13,7 @@ export const CommentContent = ({
 }) => {
   const [isReplying, setIsReplying] = useState(false);
   const [replyText, setReplyText] = useState('');
+  const [isLike, setIsLike] = useState(false);
 
   const toggleReply = () => setIsReplying(!isReplying);
   const resetReply = () => {
@@ -23,6 +24,10 @@ export const CommentContent = ({
   const handleReplySubmit = () => {
     console.log(`Komentar yang terkirim: ${replyText}`);
     resetReply();
+  };
+
+  const handleLike = () => {
+    setIsLike(!isLike);
   };
 
   return (
@@ -63,8 +68,12 @@ export const CommentContent = ({
 
               <div className="pt-[5px] pb-[20px] flex items-center w-full">
                 <div className="flex items-center">
-                  <div className="flex items-center justify-center w-[35px] h-[35px] bg-[#D9D9D9] bg-opacity-[42%] rounded-full cursor-pointer">
-                    <AiFillLike className="text-gray-400" />
+                  <div
+                    className="flex items-center justify-center w-[35px] h-[35px] bg-[#D9D9D9] bg-opacity-[42%] rounded-full cursor-pointer"
+                    onClick={handleLike}>
+                    <AiFillLike
+                      className={isLike ? 'text-[#FFCC81]' : 'text-gray-400'}
+                    />
                   </div>
 
                   <p className="pl-[9px] font-thin text-[14px] text-gray-300">
@@ -72,7 +81,7 @@ export const CommentContent = ({
                   </p>
                 </div>
 
-                <div className="flex-1 justify-end">
+                <div className="flex-1">
                   <div className="flex justify-end">
                     <div
                       className="bg-[#EFEDEC] w-[116px] h-[41px] flex items-center justify-center rounded-[15px] cursor-pointer"
@@ -114,20 +123,44 @@ export const CommentContent = ({
                 </div>
               )}
 
-              {reply.length !== 0 && (
+              {isReplying && reply.length !== 0 ? (
                 <div>
                   {reply.map((rep, i) => {
                     return (
-                      <div key={i}>
-                        <p>{rep.account}</p>
-                        <p>{rep.profileImage}</p>
-                        <p>{rep.uploaTime}</p>
-                        <p>{rep.comment}</p>
+                      <div key={i} className="flex mb-6 py-5 px-5 border-b">
+                        <img
+                          src={rep.profileImage}
+                          alt=""
+                          className="rounded-full w-[47px] h-[47px]"
+                        />
+
+                        <div>
+                          {/* isi komen */}
+                          <div className="flex flex-col pl-3">
+                            <div className="flex">
+                              <h3 className="pl-3 text-[#FFCC81] font-bold">
+                                {rep.account}
+                              </h3>
+                              <p className="pl-3 text-[#979797] font-thin ">
+                                {rep.uploadTime}
+                              </p>
+                            </div>
+                          </div>
+
+                          <div className="flex pt-2 pl-3">
+                            <h4 className="pl-3">{rep.comment}</h4>
+                          </div>
+
+                          <div className="flex px-6 mt-1">
+                            <p className="text-[#979797]">Like</p>
+                            <p className="pl-3 text-[#979797]">reply</p>
+                          </div>
+                        </div>
                       </div>
                     );
                   })}
                 </div>
-              )}
+              ) : null}
             </div>
           </div>
         </div>
